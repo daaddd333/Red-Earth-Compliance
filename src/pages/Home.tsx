@@ -22,7 +22,7 @@ export default function Home() {
             className="w-full lg:w-3/4 flex flex-col justify-center"
           >
             <div className="text-primary uppercase tracking-[0.1em] font-bold text-[14px] mb-4">
-              Built for Pilbara workplaces. Audit-ready reports. Clear pricing.
+              Built for Pilbara workplaces. Audit-ready reports. Clear, competitive pricing.
             </div>
             
             <h1 className="text-6xl md:text-7xl lg:text-[72px] font-extrabold tracking-[-2px] mb-6 leading-[0.9] text-white uppercase">
@@ -56,7 +56,7 @@ export default function Home() {
           <div className="max-w-3xl">
             <h2 className="text-4xl font-extrabold tracking-tight text-ink mb-6">One job, done properly</h2>
             <p className="text-xl text-ink/70 leading-relaxed font-medium">
-              Red Earth Compliance does one job: Test & Tag for Hedland workplaces. No hourly-rate guessing on standard work — clear package pricing, durable site-ready tagging, and digital compliance reports you can pull up when audit time comes around.
+              Red Earth Compliance does one job: Test & Tag for Hedland workplaces. No hourly-rate guessing — clear, competitive package pricing, durable site-ready tagging, and digital compliance reports you can pull up when audit time comes around.
             </p>
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function Home() {
                 <div className="w-12 h-12 bg-white rounded border border-sandstone flex items-center justify-center shadow-sm">
                   <CircleDollarSign size={24} className="text-primary" />
                 </div>
-                <h3 className="text-2xl font-bold text-ink">Clear pricing on standard jobs</h3>
+                <h3 className="text-2xl font-bold text-ink">Clear, competitive pricing</h3>
               </div>
               <p className="text-lg text-ink/70 leading-relaxed font-medium">
                 $160 base for your first 15 items, $6 each after that. Pricing is explained upfront, with any variables confirmed before booking.
