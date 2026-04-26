@@ -153,7 +153,7 @@ export default function Pricing() {
                 
                 <div className="space-y-6 text-lg font-medium text-ink/80 leading-relaxed">
                   <p>
-                    Standard pricing applies to standard 240V plug-in items only, such as extension leads, power boards, chargers, portable appliances and power tools.
+                    Standard pricing applies to accessible 240V plug-in items within Port Hedland, South Hedland and Wedgefield, where items are ready for testing and reasonably accessible.
                   </p>
                   
                   <div className="bg-sandstone/30 p-6 rounded border border-sandstone">
@@ -167,11 +167,15 @@ export default function Pricing() {
                   </div>
 
                   <p>
-                    Package pricing applies within Port Hedland, South Hedland and Wedgefield.
+                    <strong className="text-ink">Site time beyond 15 minutes of waiting, induction or restricted access</strong> may be charged at $80 + GST per 30 minutes or part thereof.
+                  </p>
+
+                  <p>
+                    <strong className="text-ink">Mining sites, remote sites, and camp work</strong> with full induction requirements, escort access or shutdown coordination are quoted separately.
                   </p>
                   
                   <p>
-                    Any additional charges for remote sites, camp work, special access conditions or extended waiting time are always <strong className="text-ink">confirmed before booking.</strong>
+                    Any extra charges are always <strong className="text-ink">confirmed before booking.</strong>
                   </p>
                 </div>
               </div>
