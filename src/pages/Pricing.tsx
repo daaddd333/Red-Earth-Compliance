@@ -153,29 +153,33 @@ export default function Pricing() {
                 
                 <div className="space-y-6 text-lg font-medium text-ink/80 leading-relaxed">
                   <p>
-                    Standard pricing applies to accessible 240V plug-in items within Port Hedland, South Hedland and Wedgefield, where items are ready for testing and reasonably accessible.
+                    Standard pricing applies to standard 240V plug-in items only, such as extension leads, power boards, chargers, portable appliances and power tools.
                   </p>
-                  
+
                   <div className="bg-sandstone/30 p-6 rounded border border-sandstone">
                     <p className="font-bold text-ink mb-4"><span className="text-primary">Specialised item pricing — $13.00 each + GST</span> applies to:</p>
                     <ul className="space-y-2 list-none list-inside">
                       <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 bg-ink rounded-full"></div> 3-phase equipment testing</li>
                       <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 bg-ink rounded-full"></div> Portable RCD testing</li>
                       <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 bg-ink rounded-full"></div> Microwave radiation leakage testing</li>
-                      <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 bg-ink rounded-full"></div> Fixed RCD / safety switch testing (subject to safe access)</li>
+                      <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 bg-ink rounded-full"></div> Fixed RCD / safety switch testing (subject to safe access and isolation being available)</li>
                     </ul>
                   </div>
 
                   <p>
-                    <strong className="text-ink">Site time beyond 15 minutes of waiting, induction or restricted access</strong> may be charged at $80 + GST per 30 minutes or part thereof.
+                    Base package pricing applies within Port Hedland, South Hedland and Wedgefield.
                   </p>
 
                   <p>
-                    <strong className="text-ink">Mining sites, remote sites, and camp work</strong> with full induction requirements, escort access or shutdown coordination are quoted separately.
+                    <strong className="text-ink">Site time beyond the first 15 minutes</strong> is charged at $80 + GST per 30 minutes or part thereof for waiting, inductions, permits, restricted access, escort requirements or site coordination.
                   </p>
-                  
+
                   <p>
-                    Any extra charges are always <strong className="text-ink">confirmed before booking.</strong>
+                    <strong className="text-ink">Mining sites, remote sites and camp work</strong> are quoted separately where full inductions, escort access, remote travel or shutdown coordination are required.
+                  </p>
+
+                  <p>
+                    Clear rates are <strong className="text-ink">confirmed before booking.</strong> Final invoices are based on the actual items tested and any confirmed site access or waiting time requirements.
                   </p>
                 </div>
               </div>
