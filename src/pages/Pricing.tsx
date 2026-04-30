@@ -7,17 +7,17 @@ const mailtoLink = "mailto:info@redearthcompliance.com.au?subject=Test%20%26%20T
 export default function Pricing() {
   const priceExamples = [
     { count: 15, price: 160 },
-    { count: 20, price: 190 },
-    { count: 30, price: 250 },
-    { count: 40, price: 310 },
-    { count: 50, price: 370 },
-    { count: 60, price: 430 },
-    { count: 70, price: 490 },
-    { count: 80, price: 550 },
-    { count: 90, price: 610 },
-    { count: 100, price: 670 },
-    { count: 150, price: 970 },
-    { count: 200, price: 1270 },
+    { count: 20, price: 205 },
+    { count: 30, price: 295 },
+    { count: 40, price: 385 },
+    { count: 50, price: 475 },
+    { count: 60, price: 565 },
+    { count: 70, price: 655 },
+    { count: 80, price: 745 },
+    { count: 90, price: 835 },
+    { count: 100, price: 925 },
+    { count: 150, price: 1375 },
+    { count: 200, price: 1825 },
   ];
 
   return (
@@ -57,7 +57,7 @@ export default function Pricing() {
                     </div>
                   </div>
                   <div className="p-8">
-                    <p className="font-bold text-ink mb-6 pb-6 border-b border-sandstone">Includes your first 15 standard items, plus:</p>
+                    <p className="font-bold text-ink mb-6 pb-6 border-b border-sandstone">Includes your first 15 test items, plus:</p>
                     <ul className="space-y-4 mb-8">
                       <li className="flex items-center gap-3 text-ink/80 font-medium"><CheckCircle2 className="text-primary" size={20}/> Onsite visit</li>
                       <li className="flex items-center gap-3 text-ink/80 font-medium"><CheckCircle2 className="text-primary" size={20}/> Testing and tagging</li>
@@ -66,8 +66,8 @@ export default function Pricing() {
                     </ul>
                     
                     <div className="bg-sandstone/30 rounded p-6 text-center border border-sandstone">
-                      <p className="text-sm font-bold uppercase tracking-widest text-ink/60 mb-1">Additional Items</p>
-                      <p className="text-2xl font-black text-ink">$6.00 <span className="text-base font-bold text-ink/60 lowercase">+ GST</span></p>
+                      <p className="text-sm font-bold uppercase tracking-widest text-ink/60 mb-1">Additional Test Items</p>
+                      <p className="text-2xl font-black text-ink">$9.00 <span className="text-base font-bold text-ink/60">+ GST</span></p>
                     </div>
                   </div>
                 </div>
@@ -92,31 +92,31 @@ export default function Pricing() {
               
               <div className="bg-white border text-lg border-sandstone p-8 rounded shadow-sm mb-12">
                 <p className="text-ink/80 font-medium mb-6">
-                  For standard items: Base Package covers your first 15 standard items for $160 + GST. Additional standard items after the first 15 are $6.00 each + GST.
+                  Base Package covers your first 15 test items for $160 + GST. Additional Test Items after the first 15 are $9.00 each + GST.
                 </p>
                 <div className="space-y-6">
                   <div className="pl-6 border-l-4 border-primary">
                     <p className="font-bold text-ink mb-1">Formula</p>
-                    <p className="font-mono text-ink/70">15 items or fewer &rarr; $160 + GST</p>
-                    <p className="font-mono text-ink/70">More than 15 &rarr; $160 + (extra items × $6.00) + GST</p>
+                    <p className="font-mono text-ink/70">15 test items or fewer &rarr; $160 + GST</p>
+                    <p className="font-mono text-ink/70">More than 15 &rarr; $160 + (extra test items × $9.00) + GST</p>
                   </div>
                   
                   <div className="grid sm:grid-cols-2 gap-6 pt-4">
                     <div className="bg-bg-light p-4 rounded border border-sandstone">
                       <p className="font-bold text-ink text-sm uppercase tracking-wide mb-2">Example: 30 items</p>
                       <ul className="text-sm space-y-1 font-mono text-ink/80 mb-2">
-                        <li>Base (15): $160</li>
-                        <li>Extra (15 × 6): $90</li>
+                        <li>Base Package: $160</li>
+                        <li>Extra test items: 15 × $9.00 = $135</li>
                       </ul>
-                      <p className="font-bold text-primary">Total: $250 + GST</p>
+                      <p className="font-bold text-primary">Total: $295 + GST</p>
                     </div>
                     <div className="bg-bg-light p-4 rounded border border-sandstone">
                       <p className="font-bold text-ink text-sm uppercase tracking-wide mb-2">Example: 100 items</p>
                       <ul className="text-sm space-y-1 font-mono text-ink/80 mb-2">
-                        <li>Base (15): $160</li>
-                        <li>Extra (85 × 6): $510</li>
+                        <li>Base Package: $160</li>
+                        <li>Extra test items: 85 × $9.00 = $765</li>
                       </ul>
-                      <p className="font-bold text-primary">Total: $670 + GST</p>
+                      <p className="font-bold text-primary">Total: $925 + GST</p>
                     </div>
                   </div>
                 </div>
@@ -153,33 +153,27 @@ export default function Pricing() {
                 
                 <div className="space-y-6 text-lg font-medium text-ink/80 leading-relaxed">
                   <p>
-                    Standard pricing applies to standard 240V plug-in items only, such as extension leads, power boards, chargers, portable appliances and power tools.
-                  </p>
-
-                  <div className="bg-sandstone/30 p-6 rounded border border-sandstone">
-                    <p className="font-bold text-ink mb-4"><span className="text-primary">Specialised item pricing — $13.00 each + GST</span> applies to:</p>
-                    <ul className="space-y-2 list-none list-inside">
-                      <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 bg-ink rounded-full"></div> 3-phase equipment testing</li>
-                      <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 bg-ink rounded-full"></div> Portable RCD testing</li>
-                      <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 bg-ink rounded-full"></div> Microwave radiation leakage testing</li>
-                      <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 bg-ink rounded-full"></div> Fixed RCD / safety switch testing (subject to safe access and isolation being available)</li>
-                    </ul>
-                  </div>
-
-                  <p>
-                    Base package pricing applies within Port Hedland, South Hedland and Wedgefield.
+                    Base package pricing applies within Port Hedland, South Hedland and Wedgefield, where items are ready for testing and reasonably accessible.
                   </p>
 
                   <p>
-                    <strong className="text-ink">Site time beyond the first 15 minutes</strong> is charged at $80 + GST per 30 minutes or part thereof for waiting, inductions, permits, restricted access, escort requirements or site coordination.
+                    Additional Test Items are charged at $9.00 each + GST after the first 15 test items included in the Base Package.
                   </p>
 
                   <p>
-                    <strong className="text-ink">Mining sites, remote sites and camp work</strong> are quoted separately where full inductions, escort access, remote travel or shutdown coordination are required.
+                    Fixed RCD / safety switch testing is subject to safe access and isolation being available.
                   </p>
 
                   <p>
-                    Clear rates are <strong className="text-ink">confirmed before booking.</strong> Final invoices are based on the actual items tested and any confirmed site access or waiting time requirements.
+                    Site time beyond the first 15 minutes is charged at $80 + GST per 30 minutes or part thereof for waiting, inductions, permits, restricted access, escort requirements or site coordination.
+                  </p>
+
+                  <p>
+                    Mining sites, remote sites and camp work are quoted separately where full inductions, escort access, remote travel or shutdown coordination are required.
+                  </p>
+
+                  <p>
+                    Rates are confirmed before booking. Final invoices are based on the actual test items completed and any confirmed site access or waiting time requirements.
                   </p>
                 </div>
               </div>

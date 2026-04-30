@@ -76,22 +76,27 @@ export default function FAQ() {
             
             <FAQItem 
               question="What's included in the Base Package?"
-              answer={<p>The Base Package is $160 + GST and includes your first 15 standard items, plus onsite visit, testing and tagging, digital compliance report and reminder service. It keeps standard jobs simple, clear and easy to budget.</p>}
+              answer={<p>The Base Package is $160 + GST and includes your first 15 test items, plus digital compliance report, onsite visit, testing and tagging, and reminder service. It keeps local Test &amp; Tag jobs simple, clear and easy to budget.</p>}
             />
             
             <FAQItem 
-              question="What counts as a standard item?"
-              answer={<p>Standard pricing applies to standard 240V plug-in equipment: extension leads, power boards, chargers, portable appliances and power tools. If you're unsure whether an item is standard or specialised, send us a photo or description before booking.</p>}
-            />
-            
-            <FAQItem 
-              question="What items are charged at the specialised rate?"
-              answer={<p>Specialised items are $13.00 each + GST and include 3-phase equipment testing, portable RCD testing, microwave leakage testing, and fixed RCD / safety switch testing. Fixed RCD / safety switch testing is subject to safe access and switchboard isolation being available on site, and may require scheduled downtime.</p>}
+              question="What types of equipment do you test?"
+              answer={
+                <>
+                  <p>We test standard 240V plug-in equipment such as extension leads, power boards, chargers, portable appliances and power tools, as well as selected specialised testing including 3-phase equipment, portable and fixed RCDs, and commercial microwaves.</p>
+                  <p>If you're unsure whether we can test something specific, send us a photo or description before booking.</p>
+                </>
+              }
             />
             
             <FAQItem 
               question="Do you charge hourly rates?"
-              answer={<p>For standard jobs, no. We use clear package pricing so you know what to expect before we arrive. For remote locations outside Hedland, special access requirements such as inductions or permits, or extended waiting times, any extra charges are confirmed before booking.</p>}
+              answer={
+                <>
+                  <p>For item-based testing, no. We use clear package pricing so you know the item rates before we arrive.</p>
+                  <p>Additional site time may apply for waiting, inductions, permits, restricted access or site coordination. Any extra charges are confirmed before booking where known, or before work continues if unexpected site delays arise.</p>
+                </>
+              }
             />
           </div>
 

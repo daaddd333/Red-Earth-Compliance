@@ -56,7 +56,7 @@ export default function Home() {
           <div className="max-w-3xl">
             <h2 className="text-4xl font-extrabold tracking-tight text-ink mb-6">One job, done properly</h2>
             <p className="text-xl text-ink/70 leading-relaxed font-medium">
-              Red Earth Compliance does one job: Test & Tag for Hedland workplaces. No hourly-rate guessing — clear, competitive package pricing, durable site-ready tagging, and digital compliance reports you can pull up when audit time comes around.
+              Red Earth Compliance does one job: Test & Tag for Hedland workplaces. No open-ended hourly pricing &mdash; just clear, competitive package pricing, durable site-ready tagging, and digital compliance reports you can pull up when audit time comes around.
             </p>
           </div>
         </div>
@@ -91,7 +91,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-ink">Clear, competitive pricing</h3>
               </div>
               <p className="text-lg text-ink/70 leading-relaxed font-medium">
-                $160 base for your first 15 items, $6 each after that. Pricing is explained upfront, with any variables confirmed before booking.
+                $160 base package for your first 15 test items, then $9.00 per additional test item. Pricing is explained upfront, with any variables confirmed before booking.
               </p>
             </div>
             
@@ -103,7 +103,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-ink">Audit-ready digital reports</h3>
               </div>
               <p className="text-lg text-ink/70 leading-relaxed font-medium">
-                Every job includes a digital report you can file, track and pull up on demand — for internal records or a compliance check.
+                Every job includes a digital report you can file, track and pull up on demand &mdash; for internal records or a compliance check.
               </p>
             </div>
             
@@ -213,12 +213,12 @@ export default function Home() {
               <h2 className="text-4xl font-extrabold tracking-tight mb-8">Simple pricing</h2>
               <div className="space-y-8">
                 <div className="bg-white/5 p-8 border border-white/10 rounded">
-                  <h3 className="text-2xl font-bold mb-4 text-white">Base Package — <span className="text-primary">$160</span><span className="text-sm text-sandstone/60"> + GST</span></h3>
+                  <h3 className="text-2xl font-bold mb-4 text-white">Base Package &mdash; <span className="text-primary">$160</span><span className="text-sm text-sandstone/60"> + GST</span></h3>
                   <p className="text-lg text-sandstone/80 font-medium mb-6">
-                    Includes your first 15 standard items, onsite visit, testing & tagging, digital compliance report and reminder service.
+                    Includes your first 15 test items, onsite visit, testing & tagging, digital compliance report and reminder service.
                   </p>
                   <div className="h-px w-full bg-white/10 mb-6"></div>
-                  <h3 className="text-xl font-bold text-white">Additional standard items — <span className="text-primary">$6.00</span><span className="text-sm text-sandstone/60"> each + GST</span></h3>
+                  <h3 className="text-xl font-bold text-white">Additional Test Items &mdash; <span className="text-primary">$9.00</span><span className="text-sm text-sandstone/60"> each + GST</span></h3>
                 </div>
                 
                 <p className="text-sandstone/70 italic font-medium">Volume pricing available for larger sites.</p>

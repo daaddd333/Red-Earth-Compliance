@@ -123,7 +123,7 @@ export default function Services() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
             {/* Included */}
             <div>
-              <h2 className="text-3xl font-extrabold tracking-tight text-ink mb-10">What's included in every standard booking</h2>
+              <h2 className="text-3xl font-extrabold tracking-tight text-ink mb-10">What's included in the Base Package</h2>
               <ul className="space-y-6 mb-10">
                 {[
                   'Onsite visit',
@@ -137,9 +137,6 @@ export default function Services() {
                   </li>
                 ))}
               </ul>
-              <div className="bg-white p-6 border-l-4 border-primary shadow-sm rounded-r italic text-ink/80 font-medium">
-                For specialised items or unusual site conditions, any additional charges are confirmed before booking.
-              </div>
             </div>
 
             {/* Who we work with */}
