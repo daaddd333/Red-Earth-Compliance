@@ -102,7 +102,7 @@ export default function FAQ() {
             <h2 className="text-3xl font-extrabold tracking-tight text-ink mb-10 border-b-2 border-primary pb-4 inline-block">Compliance &amp; Reporting</h2>
 
             <FAQItem
-              question="Are you qualified to carry out Test & Tag?"
+              question="Are your technicians qualified to carry out Test & Tag?"
               answer={<p>Yes. Testing is carried out by a trained competent person using calibrated digital PAT equipment, in accordance with relevant WA workplace requirements.</p>}
             />
 
