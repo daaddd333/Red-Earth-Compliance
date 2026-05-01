@@ -187,15 +187,15 @@ export default function Home() {
       <section className="py-16 bg-sandstone/30 border-y border-sandstone">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h2 className="text-3xl font-extrabold tracking-tight text-ink mb-6">Safe, organised and properly documented</h2>
+            <h2 className="text-3xl font-extrabold tracking-tight text-ink mb-6">Asset records, failed items and re-test tracking</h2>
             <p className="text-lg text-ink/70 leading-relaxed font-medium mb-4">
-              Red Earth Compliance takes a practical, documentation-focused approach to inspection, testing and tagging. Failed items are clearly identified, recorded and tagged out where required, helping your workplace keep unsafe equipment out of normal use and maintain clear compliance records.
+              Every tested item is recorded with relevant test details to support ongoing workplace compliance management. Reports help clients track what was inspected and tested, what passed or failed, what requires attention and what is due next.
             </p>
             <p className="text-lg text-ink/70 leading-relaxed font-medium mb-8">
-              Testing is supported by calibrated digital PAT equipment, durable site-ready tagging, digital reporting and QBE $20M Public &amp; Products Liability insurance.
+              Failed items are clearly identified, recorded and tagged out where required, helping your workplace keep unsafe equipment out of normal use and maintain clear compliance records.
             </p>
             <ul className="space-y-2">
-              {['Testing to AS/NZS 3760', 'Digital compliance reporting', 'Failed items recorded and tagged out where required', 'Durable site-ready tagging', 'QBE $20M insured'].map((item, i) => (
+              {['Itemised digital compliance reporting', 'Pass / fail result records', 'Failed items recorded and tagged out where required', 'Asset register and re-test tracking', 'Durable site-ready tagging', 'QBE $20M insured'].map((item, i) => (
                 <li key={i} className="flex items-center gap-3 text-ink/80 font-medium">
                   <CheckCircle2 size={18} className="text-primary shrink-0" />
                   {item}

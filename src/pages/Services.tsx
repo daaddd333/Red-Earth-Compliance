@@ -107,7 +107,7 @@ export default function Services() {
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-4">Digital Compliance Reporting</h3>
                 <p className="text-sandstone/80 font-medium leading-relaxed">
-                  Every job includes a digital compliance report to help you keep records organised, track re-test dates and maintain clear workplace compliance records.
+                  Every job includes a digital report package with itemised test results, pass / fail records, failed item notes where applicable, and re-test tracking to help keep workplace records organised.
                 </p>
               </div>
             </div>
