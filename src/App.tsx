@@ -19,7 +19,8 @@ function ScrollToTop() {
   return null;
 }
 
-const mailtoLink = "mailto:info@redearthcompliance.com.au?subject=Test%20%26%20Tag%20Booking%20Request&body=Hi%20Red%20Earth%20Compliance%2C%0A%0AI%27d%20like%20to%20book%20a%20Test%20%26%20Tag%20visit.%20Here%20are%20my%20details%3A%0A%0AContact%20name%3A%20%0ABusiness%20name%3A%20%0AMobile%3A%20%0AEmail%3A%20%0ASite%20location%3A%20%0APreferred%20date%20and%20time%3A%20%0AWhat%20needs%20testing%3A%20%0AEstimated%20item%20count%3A%20%0A%0AAny%20other%20notes%3A%20%0A%0AThanks.";
+const bookingMailtoLink = "mailto:info@redearthcompliance.com.au?subject=Test%20%26%20Tag%20Booking%20Request&body=Hi%20Red%20Earth%20Compliance%2C%0A%0AI%27d%20like%20to%20book%20a%20Test%20%26%20Tag%20visit.%20Here%20are%20my%20details%3A%0A%0AContact%20name%3A%20%0ABusiness%20name%3A%20%0AMobile%3A%20%0AEmail%3A%20%0ASite%20location%3A%20%0APreferred%20date%20and%20time%3A%20%0AWhat%20needs%20testing%3A%20%0AEstimated%20item%20count%3A%20%0ASite%20access%20notes%2C%20if%20any%3A%20%0A%0AAny%20other%20notes%3A%20%0A%0AThanks.";
+const plainEmailLink = "mailto:info@redearthcompliance.com.au";
 
 function Layout({ children }: { children: React.ReactNode }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -73,16 +74,12 @@ function Layout({ children }: { children: React.ReactNode }) {
                   </Link>
                 ))}
               </div>
-              <a href="tel:0458722965" className="hidden lg:flex items-center gap-2 text-primary font-bold hover:text-primary/80 transition-colors">
-                <Phone size={18} />
-                <span>0458 722 965</span>
-              </a>
-              <a
-                href={mailtoLink}
+              <Link
+                to="/contact"
                 className="bg-primary text-white px-5 py-2.5 rounded text-sm font-bold tracking-wide uppercase hover:bg-[#E04F00] transition-colors shadow-lg shadow-primary/20"
               >
                 Request Booking
-              </a>
+              </Link>
             </div>
 
             {/* Mobile menu button */}
@@ -116,12 +113,12 @@ function Layout({ children }: { children: React.ReactNode }) {
                 </Link>
               ))}
               <div className="mt-6 flex flex-col gap-3 px-3">
-                <a
-                  href={mailtoLink}
+                <Link
+                  to="/contact"
                   className="bg-primary w-full flex justify-center text-white px-5 py-3 rounded text-sm font-bold uppercase tracking-wide"
                 >
                   Request Booking
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -158,7 +155,7 @@ function Layout({ children }: { children: React.ReactNode }) {
                 <Phone size={18} className="text-primary shrink-0" />
                 <span>0458 722 965</span>
               </a>
-              <a href={mailtoLink} className="flex items-center gap-3 text-sandstone/80 hover:text-primary transition-colors font-medium">
+              <a href={plainEmailLink} className="flex items-center gap-3 text-sandstone/80 hover:text-primary transition-colors font-medium">
                 <Mail size={18} className="text-primary shrink-0" />
                 <span className="text-[13px] break-all leading-tight">info@redearthcompliance.com.au</span>
               </a>

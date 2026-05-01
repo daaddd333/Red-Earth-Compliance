@@ -1,28 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, CheckCircle2, ShieldCheck, MapPin, Zap, ClipboardCheck, CircleDollarSign } from 'lucide-react';
-import SparksEffect from '../components/SparksEffect';
+import { CheckCircle2, ShieldCheck, MapPin, ClipboardCheck, Zap } from 'lucide-react';
 import { motion } from 'motion/react';
 
-const mailtoLink = "mailto:info@redearthcompliance.com.au?subject=Test%20%26%20Tag%20Booking%20Request&body=Hi%20Red%20Earth%20Compliance%2C%0A%0AI%27d%20like%20to%20book%20a%20Test%20%26%20Tag%20visit.%20Here%20are%20my%20details%3A%0A%0AContact%20name%3A%20%0ABusiness%20name%3A%20%0AMobile%3A%20%0AEmail%3A%20%0ASite%20location%3A%20%0APreferred%20date%20and%20time%3A%20%0AWhat%20needs%20testing%3A%20%0AEstimated%20item%20count%3A%20%0A%0AAny%20other%20notes%3A%20%0A%0AThanks.";
+const bookingMailtoLink = "mailto:info@redearthcompliance.com.au?subject=Test%20%26%20Tag%20Booking%20Request&body=Hi%20Red%20Earth%20Compliance%2C%0A%0AI%27d%20like%20to%20book%20a%20Test%20%26%20Tag%20visit.%20Here%20are%20my%20details%3A%0A%0AContact%20name%3A%20%0ABusiness%20name%3A%20%0AMobile%3A%20%0AEmail%3A%20%0ASite%20location%3A%20%0APreferred%20date%20and%20time%3A%20%0AWhat%20needs%20testing%3A%20%0AEstimated%20item%20count%3A%20%0ASite%20access%20notes%2C%20if%20any%3A%20%0A%0AAny%20other%20notes%3A%20%0A%0AThanks.";
 
 export default function Home() {
   return (
     <div className="flex flex-col">
-      {/* Hero Section */}
-      <section className="relative overflow-hidden bg-ink text-bg-light min-h-[500px] flex items-center pt-32 pb-40">
-        <SparksEffect />
-        <div className="absolute inset-0 bg-gradient-to-b from-ink/60 to-ink/90 z-10 pointer-events-none"></div>
-        
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full lg:px-20">
-          <motion.div 
+      <section className="bg-ink text-bg-light py-24 relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-1/2 h-full bg-primary/10 -skew-x-[20deg] translate-x-1/2"></div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="w-full lg:w-3/4 flex flex-col justify-center"
+            className="max-w-3xl"
           >
             <div className="text-primary uppercase tracking-[0.1em] font-bold text-[14px] mb-4">
-              Built for Pilbara workplaces. Audit-ready reports. Clear, competitive pricing.
+              Workplace safety. Audit-ready records. Built for Pilbara conditions.
             </div>
             
             <h1 className="text-6xl md:text-7xl lg:text-[72px] font-extrabold tracking-[-2px] mb-6 leading-[0.9] text-white uppercase">
@@ -32,32 +28,23 @@ export default function Home() {
             </h1>
             
             <p className="text-[20px] text-white/80 font-normal max-w-[500px] leading-[1.4]">
-              Test & Tag for Port Hedland, South Hedland and Wedgefield.
+              Test &amp; Tag for Port Hedland, South Hedland and Wedgefield.
             </p>
           </motion.div>
         </div>
       </section>
 
-      {/* Action Grid Overlap */}
-      <section className="relative z-30 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-20 lg:-mt-[60px] mb-12 lg:mb-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 px-6 py-8 md:px-[80px] md:py-[40px] bg-white shadow-[0_10px_30px_rgba(0,0,0,0.05)] rounded-t-lg lg:mx-[80px]">
-          <a href="tel:0458722965" className="bg-primary text-white p-6 rounded hover:-translate-y-1 transition-transform flex items-center justify-center text-center">
-            <span className="text-[20px] lg:text-[24px] font-extrabold tracking-tight">Call or SMS 0458 722 965</span>
-          </a>
-          <a href={mailtoLink} className="bg-primary text-white p-6 rounded hover:-translate-y-1 transition-transform flex items-center justify-center text-center">
-            <span className="text-[20px] lg:text-[24px] font-extrabold tracking-tight">Book by Email</span>
-          </a>
-        </div>
-      </section>
+
 
       {/* Intro Section */}
       <section className="py-12 bg-bg-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <h2 className="text-4xl font-extrabold tracking-tight text-ink mb-6">One job, done properly</h2>
-            <p className="text-xl text-ink/70 leading-relaxed font-medium">
-              Red Earth Compliance does one job: Test & Tag for Hedland workplaces. No open-ended hourly pricing &mdash; just clear, competitive package pricing, durable site-ready tagging, and digital compliance reports you can pull up when audit time comes around.
+            <p className="text-xl text-ink/70 leading-relaxed font-medium mb-4">
+              Red Earth Compliance helps Hedland workplaces keep electrical equipment inspected, tested, tagged and properly recorded. We focus on practical Test &amp; Tag compliance, durable site-ready tagging and digital reports that are easy to file, track and provide when needed.
             </p>
+
           </div>
         </div>
       </section>
@@ -74,48 +61,48 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-12 h-12 bg-white rounded border border-sandstone flex items-center justify-center shadow-sm">
-                  <MapPin size={24} className="text-primary" />
+                  <ShieldCheck size={24} className="text-primary" />
                 </div>
-                <h3 className="text-2xl font-bold text-ink">Hedland-based</h3>
+                <h3 className="text-2xl font-bold text-ink">Workplace safety support</h3>
               </div>
               <p className="text-lg text-ink/70 leading-relaxed font-medium">
-                Local service, easy to reach and familiar with local site conditions.
+                Helps reduce the risk of faulty electrical equipment staying in normal use.
               </p>
             </div>
-            
-            <div>
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-12 h-12 bg-white rounded border border-sandstone flex items-center justify-center shadow-sm">
-                  <CircleDollarSign size={24} className="text-primary" />
-                </div>
-                <h3 className="text-2xl font-bold text-ink">Clear, competitive pricing</h3>
-              </div>
-              <p className="text-lg text-ink/70 leading-relaxed font-medium">
-                $160 base package for your first 15 test items, then $9.00 per additional test item. Pricing is explained upfront, with any variables confirmed before booking.
-              </p>
-            </div>
-            
+
             <div>
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-12 h-12 bg-white rounded border border-sandstone flex items-center justify-center shadow-sm">
                   <ClipboardCheck size={24} className="text-primary" />
                 </div>
-                <h3 className="text-2xl font-bold text-ink">Audit-ready digital reports</h3>
+                <h3 className="text-2xl font-bold text-ink">Audit-ready digital records</h3>
               </div>
               <p className="text-lg text-ink/70 leading-relaxed font-medium">
-                Every job includes a digital report you can file, track and pull up on demand &mdash; for internal records or a compliance check.
+                Digital reports help you track tested items, results, re-test dates and failed equipment.
               </p>
             </div>
-            
+
             <div>
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-12 h-12 bg-white rounded border border-sandstone flex items-center justify-center shadow-sm">
-                  <ShieldCheck size={24} className="text-primary" />
+                  <MapPin size={24} className="text-primary" />
                 </div>
-                <h3 className="text-2xl font-bold text-ink">Properly equipped and insured</h3>
+                <h3 className="text-2xl font-bold text-ink">Hedland-based local service</h3>
               </div>
               <p className="text-lg text-ink/70 leading-relaxed font-medium">
-                Calibrated digital PAT equipment, durable site-ready tagging, and QBE $20M Public & Products Liability.
+                Local service for workplaces, workshops, yards and job sites across Hedland.
+              </p>
+            </div>
+
+            <div>
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-12 h-12 bg-white rounded border border-sandstone flex items-center justify-center shadow-sm">
+                  <CheckCircle2 size={24} className="text-primary" />
+                </div>
+                <h3 className="text-2xl font-bold text-ink">Clear, competitive pricing</h3>
+              </div>
+              <p className="text-lg text-ink/70 leading-relaxed font-medium">
+                $160 base package for your first 15 test items, then $9.00 per additional test item. Pricing is explained upfront, with any variables confirmed before booking.
               </p>
             </div>
           </div>
@@ -129,35 +116,26 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
             {/* What we test */}
             <div className="bg-white p-10 rounded-lg shadow-sm border border-sandstone">
-              <h2 className="text-3xl font-extrabold tracking-tight text-ink mb-10">What we test</h2>
-              
-              <div className="mb-10">
-                <h3 className="text-xl font-bold text-primary mb-5 flex items-center gap-2">
-                  <Zap size={20} /> Standard 240V items
-                </h3>
-                <ul className="space-y-4">
-                  {['Extension leads and power boards', 'Chargers and portable appliances', 'Power tools', 'Kitchen and breakroom appliances'].map((item, i) => (
-                    <li key={i} className="flex items-start gap-3">
-                      <CheckCircle2 size={20} className="text-ink/30 shrink-0 mt-0.5" />
-                      <span className="text-lg font-medium text-ink/80">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              
-              <div>
-                <h3 className="text-xl font-bold text-primary mb-5 flex items-center gap-2">
-                  <ShieldCheck size={20} /> Specialised testing
-                </h3>
-                <ul className="space-y-4">
-                  {['Portable and fixed RCD / safety switch testing', '3-phase equipment', 'Microwave leakage testing'].map((item, i) => (
-                    <li key={i} className="flex items-start gap-3">
-                      <CheckCircle2 size={20} className="text-ink/30 shrink-0 mt-0.5" />
-                      <span className="text-lg font-medium text-ink/80">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              <h2 className="text-3xl font-extrabold tracking-tight text-ink mb-6">What we test</h2>
+              <p className="text-lg text-ink/70 font-medium mb-8 leading-relaxed">We test workplace plug-in electrical items and selected safety devices, including:</p>
+              <ul className="space-y-4">
+                {[
+                  'Extension leads and power boards',
+                  'Portable appliances',
+                  'Power tools and workshop equipment',
+                  'Chargers, laptop power supplies and office equipment',
+                  'Kitchen, staff room and breakroom appliances',
+                  'Portable RCD testing',
+                  'Fixed RCD / safety switch testing, where safe access and isolation are available',
+                  'Selected 3-phase equipment',
+                  'Microwave leakage testing',
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-3">
+                    <CheckCircle2 size={20} className="text-ink/30 shrink-0 mt-0.5" />
+                    <span className="text-lg font-medium text-ink/80">{item}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
 
             {/* How it works */}
@@ -167,7 +145,7 @@ export default function Home() {
                 {[
                   { title: "Get in touch", desc: "Send us your site location, estimated item count and what needs testing." },
                   { title: "Confirm your booking", desc: "We confirm pricing and arrange a suitable date and time before attending." },
-                  { title: "Testing, tagging and report", desc: "Your equipment is tested, tagged and recorded. A digital compliance report is sent after the job." }
+                  { title: "Inspection, testing, tagging and report", desc: "Your equipment is inspected, tested, tagged and recorded. A digital compliance report is sent after the job." }
                 ].map((step, i) => (
                   <div key={i} className="relative flex items-start justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div className="flex items-center justify-center w-12 h-12 rounded-full border-4 border-bg-light bg-primary text-white font-bold text-xl shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-lg z-10">
@@ -205,6 +183,29 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Trust / Compliance Section */}
+      <section className="py-16 bg-sandstone/30 border-y border-sandstone">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <h2 className="text-3xl font-extrabold tracking-tight text-ink mb-6">Safe, organised and properly documented</h2>
+            <p className="text-lg text-ink/70 leading-relaxed font-medium mb-4">
+              Red Earth Compliance takes a practical, documentation-focused approach to inspection, testing and tagging. Failed items are clearly identified, recorded and tagged out where required, helping your workplace keep unsafe equipment out of normal use and maintain clear compliance records.
+            </p>
+            <p className="text-lg text-ink/70 leading-relaxed font-medium mb-8">
+              Testing is supported by calibrated digital PAT equipment, durable site-ready tagging, digital reporting and QBE $20M Public &amp; Products Liability insurance.
+            </p>
+            <ul className="space-y-2">
+              {['Testing to AS/NZS 3760', 'Digital compliance reporting', 'Failed items recorded and tagged out where required', 'Durable site-ready tagging', 'QBE $20M insured'].map((item, i) => (
+                <li key={i} className="flex items-center gap-3 text-ink/80 font-medium">
+                  <CheckCircle2 size={18} className="text-primary shrink-0" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing / CTA Section */}
       <section className="py-24 bg-ink text-bg-light border-y-8 border-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -215,7 +216,7 @@ export default function Home() {
                 <div className="bg-white/5 p-8 border border-white/10 rounded">
                   <h3 className="text-2xl font-bold mb-4 text-white">Base Package &mdash; <span className="text-primary">$160</span><span className="text-sm text-sandstone/60"> + GST</span></h3>
                   <p className="text-lg text-sandstone/80 font-medium mb-6">
-                    Includes your first 15 test items, onsite visit, testing & tagging, digital compliance report and reminder service.
+                    Includes your first 15 test items, onsite visit, inspection, testing &amp; tagging, digital compliance report and reminder service.
                   </p>
                   <div className="h-px w-full bg-white/10 mb-6"></div>
                   <h3 className="text-xl font-bold text-white">Additional Test Items &mdash; <span className="text-primary">$9.00</span><span className="text-sm text-sandstone/60"> each + GST</span></h3>
@@ -232,12 +233,9 @@ export default function Home() {
             <div className="bg-bg-light text-ink p-10 rounded-lg">
               <h3 className="text-2xl font-extrabold tracking-tight mb-8 uppercase">Ready to book?</h3>
               <div className="flex flex-col gap-4">
-                <a href="tel:0458722965" className="bg-primary text-white p-6 rounded hover:-translate-y-1 transition-transform flex items-center justify-center text-center w-full shadow-lg">
-                  <span className="text-[20px] lg:text-[22px] font-extrabold tracking-tight">Call or SMS 0458 722 965</span>
-                </a>
-                <a href={mailtoLink} className="bg-primary text-white p-6 rounded hover:-translate-y-1 transition-transform flex items-center justify-center text-center w-full shadow-lg">
-                  <span className="text-[20px] lg:text-[22px] font-extrabold tracking-tight">Book by Email</span>
-                </a>
+                <Link to="/contact" className="bg-primary text-white p-6 rounded hover:-translate-y-1 transition-transform flex items-center justify-center text-center w-full shadow-lg">
+                  <span className="text-[20px] lg:text-[22px] font-extrabold tracking-tight">Request Booking</span>
+                </Link>
                 
                 <div className="mt-8 pt-8 border-t border-sandstone text-center">
                   <p className="font-bold text-ink mb-4 uppercase tracking-widest text-sm">Service Area</p>

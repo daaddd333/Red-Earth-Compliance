@@ -1,8 +1,6 @@
 import React from 'react';
-import { CheckCircle2, AlertCircle, Phone, Mail, ArrowRight } from 'lucide-react';
+import { CheckCircle2, AlertCircle, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
-const mailtoLink = "mailto:info@redearthcompliance.com.au?subject=Test%20%26%20Tag%20Booking%20Request&body=Hi%20Red%20Earth%20Compliance%2C%0A%0AI%27d%20like%20to%20book%20a%20Test%20%26%20Tag%20visit.%20Here%20are%20my%20details%3A%0A%0AContact%20name%3A%20%0ABusiness%20name%3A%20%0AMobile%3A%20%0AEmail%3A%20%0ASite%20location%3A%20%0APreferred%20date%20and%20time%3A%20%0AWhat%20needs%20testing%3A%20%0AEstimated%20item%20count%3A%20%0A%0AAny%20other%20notes%3A%20%0A%0AThanks.";
 
 export default function Pricing() {
   const priceExamples = [
@@ -29,7 +27,7 @@ export default function Pricing() {
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight mb-6">Clear Pricing for Hedland Workplaces</h1>
             <p className="text-xl text-sandstone/90 mb-10 font-medium leading-relaxed">
-              Straightforward package pricing for standard Test & Tag jobs across Port Hedland, South Hedland and Wedgefield. <span className="text-primary font-bold">You see the number before we book.</span>
+              Straightforward package pricing for Test &amp; Tag jobs across Port Hedland, South Hedland and Wedgefield. <span className="text-primary font-bold">You know the rates before we book.</span>
             </p>
             <div className="flex flex-wrap gap-4 items-center text-sm font-semibold tracking-wide text-sandstone/70">
               <span className="px-3 py-1 bg-white/10 rounded border border-white/5">AS/NZS 3760</span>
@@ -44,7 +42,7 @@ export default function Pricing() {
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
-            
+
             {/* Left Col: Explainer */}
             <div className="lg:col-span-5 relative">
               <div className="sticky top-32">
@@ -60,11 +58,11 @@ export default function Pricing() {
                     <p className="font-bold text-ink mb-6 pb-6 border-b border-sandstone">Includes your first 15 test items, plus:</p>
                     <ul className="space-y-4 mb-8">
                       <li className="flex items-center gap-3 text-ink/80 font-medium"><CheckCircle2 className="text-primary" size={20}/> Onsite visit</li>
-                      <li className="flex items-center gap-3 text-ink/80 font-medium"><CheckCircle2 className="text-primary" size={20}/> Testing and tagging</li>
+                      <li className="flex items-center gap-3 text-ink/80 font-medium"><CheckCircle2 className="text-primary" size={20}/> Inspection, testing and tagging</li>
                       <li className="flex items-center gap-3 text-ink/80 font-medium"><CheckCircle2 className="text-primary" size={20}/> Digital compliance report</li>
                       <li className="flex items-center gap-3 text-ink/80 font-medium"><CheckCircle2 className="text-primary" size={20}/> Reminder service</li>
                     </ul>
-                    
+
                     <div className="bg-sandstone/30 rounded p-6 text-center border border-sandstone">
                       <p className="text-sm font-bold uppercase tracking-widest text-ink/60 mb-1">Additional Test Items</p>
                       <p className="text-2xl font-black text-ink">$9.00 <span className="text-base font-bold text-ink/60">+ GST</span></p>
@@ -73,15 +71,12 @@ export default function Pricing() {
                 </div>
 
                 <div className="bg-ink p-8 rounded-xl relative overflow-hidden">
-                   <h3 className="text-xl font-bold text-bg-light mb-4 flex items-center gap-2">Ready to book?</h3>
-                   <div className="flex flex-col gap-4">
-                      <a href="tel:0458722965" className="bg-primary text-white p-4 rounded hover:-translate-y-0.5 transition-transform flex items-center justify-center text-center w-full shadow-md">
-                        <span className="text-[16px] lg:text-[18px] font-extrabold tracking-tight">Call or SMS 0458 722 965</span>
-                      </a>
-                      <a href={mailtoLink} className="bg-primary text-white p-4 rounded hover:-translate-y-0.5 transition-transform flex items-center justify-center text-center w-full shadow-md">
-                        <span className="text-[16px] lg:text-[18px] font-extrabold tracking-tight">Book by Email</span>
-                      </a>
-                   </div>
+                  <h3 className="text-xl font-bold text-bg-light mb-4 flex items-center gap-2">Ready to book?</h3>
+                  <div className="flex flex-col gap-4">
+                    <Link to="/contact" className="bg-primary text-white p-4 rounded hover:-translate-y-0.5 transition-transform flex items-center justify-center text-center w-full shadow-md">
+                      <span className="text-[16px] lg:text-[18px] font-extrabold tracking-tight">Request Booking</span>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -89,7 +84,7 @@ export default function Pricing() {
             {/* Right Col: Tables and Notes */}
             <div className="lg:col-span-7">
               <h2 className="text-3xl font-extrabold tracking-tight text-ink mb-8">How pricing works</h2>
-              
+
               <div className="bg-white border text-lg border-sandstone p-8 rounded shadow-sm mb-12">
                 <p className="text-ink/80 font-medium mb-6">
                   Base Package covers your first 15 test items for $160 + GST. Additional Test Items after the first 15 are $9.00 each + GST.
@@ -98,15 +93,15 @@ export default function Pricing() {
                   <div className="pl-6 border-l-4 border-primary">
                     <p className="font-bold text-ink mb-1">Formula</p>
                     <p className="font-mono text-ink/70">15 test items or fewer &rarr; $160 + GST</p>
-                    <p className="font-mono text-ink/70">More than 15 &rarr; $160 + (extra test items × $9.00) + GST</p>
+                    <p className="font-mono text-ink/70">More than 15 &rarr; $160 + (extra test items &times; $9.00) + GST</p>
                   </div>
-                  
+
                   <div className="grid sm:grid-cols-2 gap-6 pt-4">
                     <div className="bg-bg-light p-4 rounded border border-sandstone">
                       <p className="font-bold text-ink text-sm uppercase tracking-wide mb-2">Example: 30 items</p>
                       <ul className="text-sm space-y-1 font-mono text-ink/80 mb-2">
                         <li>Base Package: $160</li>
-                        <li>Extra test items: 15 × $9.00 = $135</li>
+                        <li>Extra test items: 15 &times; $9.00 = $135</li>
                       </ul>
                       <p className="font-bold text-primary">Total: $295 + GST</p>
                     </div>
@@ -114,7 +109,7 @@ export default function Pricing() {
                       <p className="font-bold text-ink text-sm uppercase tracking-wide mb-2">Example: 100 items</p>
                       <ul className="text-sm space-y-1 font-mono text-ink/80 mb-2">
                         <li>Base Package: $160</li>
-                        <li>Extra test items: 85 × $9.00 = $765</li>
+                        <li>Extra test items: 85 &times; $9.00 = $765</li>
                       </ul>
                       <p className="font-bold text-primary">Total: $925 + GST</p>
                     </div>
@@ -122,12 +117,12 @@ export default function Pricing() {
                 </div>
               </div>
 
-              <h2 className="text-3xl font-extrabold tracking-tight text-ink mb-8">Standard price examples</h2>
+              <h2 className="text-3xl font-extrabold tracking-tight text-ink mb-8">Price examples</h2>
               <div className="bg-white border text-lg border-sandstone rounded shadow-sm mb-6 overflow-hidden">
                 <table className="w-full text-left border-collapse">
                   <thead>
                     <tr className="bg-sandstone/30 border-b border-sandstone">
-                      <th className="py-4 px-6 font-bold text-ink uppercase tracking-wider text-sm">Standard item count</th>
+                      <th className="py-4 px-6 font-bold text-ink uppercase tracking-wider text-sm">Test item count</th>
                       <th className="py-4 px-6 font-bold text-ink uppercase tracking-wider text-sm">Price (ex GST)</th>
                     </tr>
                   </thead>
@@ -150,7 +145,7 @@ export default function Pricing() {
                 <h2 className="text-2xl font-extrabold tracking-tight text-ink mb-6 flex items-center gap-3">
                   <AlertCircle className="text-primary" /> Pricing Notes
                 </h2>
-                
+
                 <div className="space-y-6 text-lg font-medium text-ink/80 leading-relaxed">
                   <p>
                     Base package pricing applies within Port Hedland, South Hedland and Wedgefield, where items are ready for testing and reasonably accessible.
@@ -182,7 +177,7 @@ export default function Pricing() {
           </div>
         </div>
       </section>
-      
+
       {/* Footer link to Contact */}
       <section className="bg-sandstone/30 py-16 border-y border-sandstone">
          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between">
