@@ -47,7 +47,7 @@ export default function Services() {
               </div>
               <h3 className="text-2xl font-bold text-ink mb-4">3-Phase Equipment Testing</h3>
               <p className="text-ink/80 font-medium mb-6 leading-relaxed">
-                Testing of selected 3-phase equipment used in workplaces and industrial environments.
+                Testing of selected 3-phase equipment used in workshops, yards and industrial workplaces.
               </p>
               <div className="border-t border-sandstone/50 pt-4 mt-auto">
                 <p className="text-sm font-semibold italic text-ink/60">Suited to workshops, industrial sites and workplaces using 415V equipment.</p>
@@ -73,7 +73,7 @@ export default function Services() {
               <div className="w-14 h-14 bg-bg-light rounded flex items-center justify-center mb-6 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
                 <ShieldCheck size={28} />
               </div>
-              <h3 className="text-2xl font-bold text-ink mb-4">Fixed RCD / Safety Switch</h3>
+              <h3 className="text-2xl font-bold text-ink mb-4">Fixed RCD / Safety Switch Testing</h3>
               <p className="text-ink/80 font-medium mb-6 leading-relaxed">
                 Testing of fixed RCDs and safety switches, subject to safe access and isolation being available.
               </p>

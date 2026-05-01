@@ -2,7 +2,7 @@ import React from 'react';
 import { Phone, Mail, MapPin, Clock, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-const bookingMailtoLink = "mailto:info@redearthcompliance.com.au?subject=Test%20%26%20Tag%20Booking%20Request&body=Hi%20Red%20Earth%20Compliance%2C%0A%0AI%27d%20like%20to%20book%20a%20Test%20%26%20Tag%20visit.%20Here%20are%20my%20details%3A%0A%0AContact%20name%3A%20%0ABusiness%20name%3A%20%0AMobile%3A%20%0AEmail%3A%20%0ASite%20location%3A%20%0APreferred%20date%20and%20time%3A%20%0AWhat%20needs%20testing%3A%20%0AEstimated%20item%20count%3A%20%0ASite%20access%20notes%2C%20if%20any%3A%20%0A%0AAny%20other%20notes%3A%20%0A%0AThanks.";
+
 
 export default function Contact() {
   return (

@@ -81,7 +81,7 @@ export default function FAQ() {
               question="What types of equipment do you test?"
               answer={
                 <>
-                  <p>We test standard 240V plug-in equipment such as extension leads, power boards, chargers, portable appliances and power tools, as well as selected specialised testing including 3-phase equipment, portable and fixed RCDs, and commercial microwaves.</p>
+                  <p>We test workplace plug-in electrical items such as extension leads, power boards, chargers, portable appliances and power tools. We also provide selected testing for portable RCDs, fixed RCD / safety switches, selected 3-phase equipment and commercial microwaves.</p>
                   <p>If you're unsure whether we can test something specific, send us a photo or description before booking.</p>
                 </>
               }
@@ -102,7 +102,7 @@ export default function FAQ() {
             <h2 className="text-3xl font-extrabold tracking-tight text-ink mb-10 border-b-2 border-primary pb-4 inline-block">Compliance &amp; Reporting</h2>
 
             <FAQItem
-              question="Are your technicians qualified to carry out Test & Tag?"
+              question="Are you qualified to carry out Test & Tag?"
               answer={<p>Yes. Testing is carried out by a trained competent person using calibrated digital PAT equipment, in accordance with relevant WA workplace requirements.</p>}
             />
 
