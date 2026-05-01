@@ -18,7 +18,7 @@ export default function Home() {
             className="max-w-3xl"
           >
             <div className="text-primary uppercase tracking-[0.1em] font-bold text-[14px] mb-4">
-              Workplace safety. Audit-ready records. Built for Pilbara conditions.
+              Workplace Safety · Local Compliance Support · Audit-Ready Records
             </div>
             
             <h1 className="text-6xl md:text-7xl lg:text-[72px] font-extrabold tracking-[-2px] mb-6 leading-[0.9] text-white uppercase">
@@ -40,9 +40,9 @@ export default function Home() {
       <section className="py-12 bg-bg-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h2 className="text-4xl font-extrabold tracking-tight text-ink mb-6">One job, done properly</h2>
+            <h2 className="text-4xl font-extrabold tracking-tight text-ink mb-6">One focus. Done properly.</h2>
             <p className="text-xl text-ink/70 leading-relaxed font-medium mb-4">
-              Red Earth Compliance helps Hedland workplaces keep electrical equipment inspected, tested, tagged and properly recorded. We focus on practical Test &amp; Tag compliance, durable site-ready tagging and digital reports that are easy to file, track and provide when needed.
+              Red Earth Compliance provides local Test &amp; Tag compliance support for Hedland workplaces. We help businesses keep workplace plug-in electrical items inspected, tested, tagged and properly recorded &mdash; with durable tags, digital reports and clear records for audits, contractor requirements and internal safety management.
             </p>
 
           </div>

@@ -108,12 +108,12 @@ export default function FAQ() {
 
             <FAQItem
               question="Why are digital reports important?"
-              answer={<p>Proper Test &amp; Tag isn't just about putting a label on a piece of equipment. Audit-ready digital reports help you keep clear records, track due dates and stay compliant. Good reporting makes it easier to show what equipment was tested, when it was tested, what requires attention, and what's due next.</p>}
+              answer={<p>Proper Test &amp; Tag is not just about putting a label on equipment. Digital reports help keep clear records of what was inspected and tested, what passed or failed, what requires attention, and when items are due next. This supports internal safety records, contractor requirements and audit checks.</p>}
             />
 
             <FAQItem
               question="What happens if equipment fails testing?"
-              answer={<p>If an item doesn't pass, we clearly identify the item, record the result in your report, and apply an appropriate Out of Service / Danger tag where required. This helps prevent faulty equipment from being accidentally returned to use.</p>}
+              answer={<p>If an item does not pass, it is clearly identified and recorded in your report as requiring attention. Where required, an Out of Service / Danger tag is applied so the item is not returned to normal use until repaired, replaced or re-tested as applicable.</p>}
             />
 
             <FAQItem
