@@ -141,7 +141,24 @@ export default function Pricing() {
               </div>
               <p className="text-sm font-semibold italic text-ink/60 mb-16">Volume pricing available for larger sites on request.</p>
 
+
+              {/* Why competitive */}
               <div className="border-t-4 border-ink pt-12">
+                <h2 className="text-2xl font-extrabold tracking-tight text-ink mb-6">Why is Red Earth pricing competitive?</h2>
+                <div className="space-y-6 text-lg font-medium text-ink/80 leading-relaxed">
+                  <p>
+                    Some Test &amp; Tag pricing models include separate hourly rates, labour fees, per-tag rates, report / asset register fees and call-out fees. In the Pilbara, this can often work out around $10&ndash;$16+ per test item, and reporting may not always be included.
+                  </p>
+                  <p>
+                    Red Earth Compliance focuses on Test &amp; Tag only. By using an efficient, high-volume workflow and digital reporting process, we can keep pricing simple and competitive &mdash; with digital compliance reporting, asset records and re-test tracking included.
+                  </p>
+                  <p>
+                    Our Base Package is $140 + GST and includes up to 15 test items, which works out under $10 per item when all 15 items are tested. Additional test items are charged at $9.00 + GST each.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-16 border-t border-sandstone pt-12">
                 <h2 className="text-2xl font-extrabold tracking-tight text-ink mb-6 flex items-center gap-3">
                   <AlertCircle className="text-primary" /> Pricing Notes
                 </h2>
@@ -169,22 +186,6 @@ export default function Pricing() {
 
                   <p>
                     Rates are confirmed before booking. Final invoices are based on the actual test items completed and any confirmed site access or waiting time requirements.
-                  </p>
-                </div>
-              </div>
-
-              {/* Why competitive */}
-              <div className="mt-16 border-t border-sandstone pt-12">
-                <h2 className="text-2xl font-extrabold tracking-tight text-ink mb-6">Why is Red Earth pricing competitive?</h2>
-                <div className="space-y-6 text-lg font-medium text-ink/80 leading-relaxed">
-                  <p>
-                    Some Test &amp; Tag pricing models include separate hourly rates, labour fees, per-tag rates, report / asset register fees and call-out fees. In the Pilbara, this can often work out around $10&ndash;$16+ per test item, and reporting may not always be included.
-                  </p>
-                  <p>
-                    Red Earth Compliance focuses on Test &amp; Tag only. By using an efficient, high-volume workflow and digital reporting process, we can keep pricing simple and competitive &mdash; with digital compliance reporting, asset records and re-test tracking included.
-                  </p>
-                  <p>
-                    Our Base Package is $140 + GST and includes up to 15 test items, which works out under $10 per item when all 15 items are tested. Additional test items are charged at $9.00 + GST each.
                   </p>
                 </div>
               </div>
