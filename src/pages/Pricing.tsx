@@ -4,18 +4,18 @@ import { Link } from 'react-router-dom';
 
 export default function Pricing() {
   const priceExamples = [
-    { count: 15, price: 160 },
-    { count: 20, price: 205 },
-    { count: 30, price: 295 },
-    { count: 40, price: 385 },
-    { count: 50, price: 475 },
-    { count: 60, price: 565 },
-    { count: 70, price: 655 },
-    { count: 80, price: 745 },
-    { count: 90, price: 835 },
-    { count: 100, price: 925 },
-    { count: 150, price: 1375 },
-    { count: 200, price: 1825 },
+    { count: 15, price: 140 },
+    { count: 20, price: 185 },
+    { count: 30, price: 275 },
+    { count: 40, price: 365 },
+    { count: 50, price: 455 },
+    { count: 60, price: 545 },
+    { count: 70, price: 635 },
+    { count: 80, price: 725 },
+    { count: 90, price: 815 },
+    { count: 100, price: 905 },
+    { count: 150, price: 1355 },
+    { count: 200, price: 1805 },
   ];
 
   return (
@@ -50,12 +50,12 @@ export default function Pricing() {
                   <div className="bg-primary px-8 py-6 text-center border-b-4 border-ink">
                     <h2 className="text-xl font-bold tracking-widest uppercase text-white mb-2">Base Package</h2>
                     <div className="flex justify-center items-baseline gap-1">
-                      <span className="text-5xl font-black text-white">$160</span>
+                      <span className="text-5xl font-black text-white">$140</span>
                       <span className="text-ink font-bold">+ GST</span>
                     </div>
                   </div>
                   <div className="p-8">
-                    <p className="font-bold text-ink mb-6 pb-6 border-b border-sandstone">Includes your first 15 test items, plus:</p>
+                    <p className="font-bold text-ink mb-6 pb-6 border-b border-sandstone">Includes up to 15 test items, plus:</p>
                     <ul className="space-y-4 mb-8">
                       <li className="flex items-center gap-3 text-ink/80 font-medium"><CheckCircle2 className="text-primary" size={20}/> Onsite visit</li>
                       <li className="flex items-center gap-3 text-ink/80 font-medium"><CheckCircle2 className="text-primary" size={20}/> Inspection, testing and tagging</li>
@@ -87,31 +87,31 @@ export default function Pricing() {
 
               <div className="bg-white border text-lg border-sandstone p-8 rounded shadow-sm mb-12">
                 <p className="text-ink/80 font-medium mb-6">
-                  Base Package covers your first 15 test items for $160 + GST. Additional Test Items after the first 15 are $9.00 each + GST.
+                  Base Package covers up to 15 test items for $140 + GST. Additional Test Items after the first 15 are $9.00 each + GST.
                 </p>
                 <div className="space-y-6">
                   <div className="pl-6 border-l-4 border-primary">
                     <p className="font-bold text-ink mb-1">Formula</p>
-                    <p className="font-mono text-ink/70">15 test items or fewer &rarr; $160 + GST</p>
-                    <p className="font-mono text-ink/70">More than 15 &rarr; $160 + (extra test items &times; $9.00) + GST</p>
+                    <p className="font-mono text-ink/70">15 test items or fewer &rarr; $140 + GST</p>
+                    <p className="font-mono text-ink/70">More than 15 &rarr; $140 + (extra test items &times; $9.00) + GST</p>
                   </div>
 
                   <div className="grid sm:grid-cols-2 gap-6 pt-4">
                     <div className="bg-bg-light p-4 rounded border border-sandstone">
                       <p className="font-bold text-ink text-sm uppercase tracking-wide mb-2">Example: 30 items</p>
                       <ul className="text-sm space-y-1 font-mono text-ink/80 mb-2">
-                        <li>Base Package: $160</li>
+                        <li>Base Package: $140</li>
                         <li>Extra test items: 15 &times; $9.00 = $135</li>
                       </ul>
-                      <p className="font-bold text-primary">Total: $295 + GST</p>
+                      <p className="font-bold text-primary">Total: $275 + GST</p>
                     </div>
                     <div className="bg-bg-light p-4 rounded border border-sandstone">
                       <p className="font-bold text-ink text-sm uppercase tracking-wide mb-2">Example: 100 items</p>
                       <ul className="text-sm space-y-1 font-mono text-ink/80 mb-2">
-                        <li>Base Package: $160</li>
+                        <li>Base Package: $140</li>
                         <li>Extra test items: 85 &times; $9.00 = $765</li>
                       </ul>
-                      <p className="font-bold text-primary">Total: $925 + GST</p>
+                      <p className="font-bold text-primary">Total: $905 + GST</p>
                     </div>
                   </div>
                 </div>
@@ -152,7 +152,7 @@ export default function Pricing() {
                   </p>
 
                   <p>
-                    Additional Test Items are charged at $9.00 each + GST after the first 15 test items included in the Base Package.
+                    Additional Test Items are charged at $9.00 each + GST after the first 15 test items.
                   </p>
 
                   <p>
@@ -169,6 +169,22 @@ export default function Pricing() {
 
                   <p>
                     Rates are confirmed before booking. Final invoices are based on the actual test items completed and any confirmed site access or waiting time requirements.
+                  </p>
+                </div>
+              </div>
+
+              {/* Why competitive */}
+              <div className="mt-16 border-t border-sandstone pt-12">
+                <h2 className="text-2xl font-extrabold tracking-tight text-ink mb-6">Why is Red Earth pricing competitive?</h2>
+                <div className="space-y-6 text-lg font-medium text-ink/80 leading-relaxed">
+                  <p>
+                    Some Test &amp; Tag pricing models include separate hourly rates, labour fees, per-tag rates, report / asset register fees and call-out fees. In the Pilbara, this can often work out around $10&ndash;$16+ per test item, and reporting may not always be included.
+                  </p>
+                  <p>
+                    Red Earth Compliance focuses on Test &amp; Tag only. By using an efficient, high-volume workflow and digital reporting process, we can keep pricing simple and competitive &mdash; with digital compliance reporting, asset records and re-test tracking included.
+                  </p>
+                  <p>
+                    Our Base Package is $140 + GST and includes up to 15 test items, which works out under $10 per item when all 15 items are tested. Additional test items are charged at $9.00 + GST each.
                   </p>
                 </div>
               </div>
