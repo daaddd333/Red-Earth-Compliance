@@ -74,7 +74,7 @@ export default function FAQ() {
 
             <FAQItem
               question="What's included in the Base Package?"
-              answer={<p>The Base Package is $140 + GST and includes up to 15 test items, plus digital compliance report, onsite visit, inspection, testing and tagging, and reminder service. It keeps local Test &amp; Tag jobs simple, clear and easy to budget.</p>}
+              answer={<p>The Base Package is $135 + GST and includes up to 15 test items, plus digital compliance report, onsite visit, inspection, testing and tagging, and reminder service. It keeps local Test &amp; Tag jobs simple, clear and easy to budget.</p>}
             />
 
             <FAQItem
@@ -103,7 +103,7 @@ export default function FAQ() {
                 <>
                   <p>Some Test &amp; Tag pricing models include separate hourly rates, labour fees, per-tag rates, report / asset register fees and call-out fees. In the Pilbara, this can often work out around $10&ndash;$16+ per test item, and reporting may not always be included.</p>
                   <p>Red Earth Compliance focuses on Test &amp; Tag only. By using an efficient, high-volume workflow and digital reporting process, we can keep pricing simple and competitive &mdash; with digital compliance reporting, asset records and re-test tracking included.</p>
-                  <p>Our Base Package is $140 + GST and includes up to 15 test items, which works out under $10 per item when all 15 items are tested. Additional test items are charged at $9.00 + GST each.</p>
+                  <p>Our Base Package is $135 + GST and includes up to 15 test items, which works out to $9.00 + GST per test item when all 15 included items are tested. Additional test items are charged at $9.00 + GST each.</p>
                 </>
               }
             />
