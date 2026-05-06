@@ -65,7 +65,7 @@ export default function Pricing() {
 
                     <div className="bg-sandstone/30 rounded p-6 text-center border border-sandstone">
                       <p className="text-sm font-bold uppercase tracking-widest text-ink/60 mb-1">Additional Test Items</p>
-                      <p className="text-2xl font-black text-ink">$9.00 <span className="text-base font-bold text-ink/60">+ GST</span></p>
+                      <p className="text-2xl font-black text-ink"><span className="text-primary">$9.00</span> <span className="text-base font-bold text-ink/60">+ GST</span></p>
                     </div>
                   </div>
                 </div>
@@ -94,7 +94,7 @@ export default function Pricing() {
                     <p className="font-bold text-ink mb-1">Formula</p>
                     <p className="font-mono text-ink/70">15 test items or fewer &rarr; $135 + GST</p>
                     <p className="font-mono text-ink/70">More than 15 &rarr; $135 + (extra test items &times; $9.00) + GST</p>
-                    <p className="text-sm text-ink/60 font-medium mt-3">When all 15 included items are tested, the Base Package works out to $9.00 + GST per test item.</p>
+                    <p className="text-sm text-ink/60 font-medium mt-3">When all 15 included items are tested, the Base Package works out to <span className="text-primary font-bold">$9.00 + GST per test item</span>.</p>
                   </div>
 
                   <div className="grid sm:grid-cols-2 gap-6 pt-4">
@@ -104,7 +104,7 @@ export default function Pricing() {
                         <li>Base Package: $135</li>
                         <li>Extra test items: 15 &times; $9.00 = $135</li>
                       </ul>
-                      <p className="font-bold text-primary">Total: $270 + GST</p>
+                      <p className="font-bold text-ink">Total: $270 + GST</p>
                     </div>
                     <div className="bg-bg-light p-4 rounded border border-sandstone">
                       <p className="font-bold text-ink text-sm uppercase tracking-wide mb-2">Example: 100 items</p>
@@ -112,7 +112,7 @@ export default function Pricing() {
                         <li>Base Package: $135</li>
                         <li>Extra test items: 85 &times; $9.00 = $765</li>
                       </ul>
-                      <p className="font-bold text-primary">Total: $900 + GST</p>
+                      <p className="font-bold text-ink">Total: $900 + GST</p>
                     </div>
                   </div>
                 </div>
