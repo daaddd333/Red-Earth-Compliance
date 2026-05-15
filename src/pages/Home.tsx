@@ -206,16 +206,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Service Area Map Strip */}
-      <section className="bg-ink overflow-hidden border-y border-primary/30">
-        <img
-          src="/images/hedland-map-footer-wave.png"
-          alt=""
-          aria-hidden="true"
-          className="h-[180px] w-full object-cover object-center sm:h-[220px] lg:h-[320px]"
-        />
-      </section>
-
       {/* Pricing / CTA Section */}
       <section className="py-24 bg-ink text-bg-light border-y-8 border-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -258,6 +248,16 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Service Area Map Strip */}
+      <section className="bg-ink overflow-hidden border-y border-primary/30">
+        <img
+          src="/images/hedland-map-footer-wave.png"
+          alt=""
+          aria-hidden="true"
+          className="h-[180px] w-full object-cover object-center sm:h-[220px] lg:h-[320px]"
+        />
       </section>
       
       {/* Standards */}
