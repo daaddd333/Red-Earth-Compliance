@@ -256,7 +256,7 @@ export default function Home() {
           src="/images/hedland-map-footer-wave.png"
           alt=""
           aria-hidden="true"
-          className="h-[180px] w-full object-cover object-center sm:h-[220px] lg:h-[320px]"
+          className="block h-auto w-full"
         />
       </section>
       
