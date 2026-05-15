@@ -22,6 +22,16 @@ export default function Services() {
         </div>
       </section>
 
+      {/* Services Equipment Strip */}
+      <section className="bg-ink overflow-hidden border-b border-primary/30">
+        <img
+          src="/images/services-equipment-strip.png"
+          alt=""
+          aria-hidden="true"
+          className="block h-auto w-full"
+        />
+      </section>
+
       {/* Services Grid */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
