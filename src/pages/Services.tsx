@@ -28,7 +28,7 @@ export default function Services() {
           src="/images/services-equipment-strip.png"
           alt=""
           aria-hidden="true"
-          className="h-[180px] w-full object-cover object-center sm:h-[200px] lg:h-[300px]"
+          className="h-[180px] w-full object-cover object-bottom sm:h-[220px] lg:h-[300px]"
         />
       </section>
 
